@@ -10,10 +10,9 @@ Code book included with this, describes all the variables of the tidy data set.
 ### The instruction list/script (run_analysis.R)
 
 To execute run_analysis.R
-1. Download the data set from above mentioned location and extract the zip file 
-2. Copy this R file into "UCI HAR Dataset" folder
-3. Install R plyr package 
-4. Set "UCI HAR Dataset" folder as working directory in R
-5. Copy below command and execute in R
-    source("run_analysis.R"); run_analysis()
-6. "HumanActivityDataAvgByActivitySubject.txt" is generated at "UCI HAR Dataset" folder
+* Download the data set from above mentioned location and extract the zip file 
+* Copy this R file into "UCI HAR Dataset" folder
+* Install R plyr package 
+* Set "UCI HAR Dataset" folder as working directory in R
+* Copy thecommand and execute in R:  source("run_analysis.R"); run_analysis()
+* "HumanActivityDataAvgByActivitySubject.txt" is generated at "UCI HAR Dataset" folder
