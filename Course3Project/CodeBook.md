@@ -1,0 +1,92 @@
+## Code Book for processed UCI Human Activity Recognition Data
+
+Feature variables in the data set are described below.
+
+1 subject - volunteers who performed the experiment 
+  values have numbers 1 to 30 
+
+2 activityname - activities performaned on the experiment
+ WALKING
+
+ WALKING_UPSTAIRS
+
+ WALKING_DOWNSTAIRS
+ SITTING
+ STANDING
+ LAYING
+
+
+
+Below feature variables are prefixed with "time" for time domain signal, "bodyaccerlerometer" for body acceleration signal, "gravityaccelerometer" for gravity acceleration signal,  "mean"  for mean value, "standarddeviation" for standard deviation value, "jerk" for jerk signals, "xcoordinate" for X direction coordinate value,  "ycoordinate" for Y direction coordinate value, and "zcoordinate" for Z direction coordinate value. For more details on UCI Human Activity Recognition Data collection, refer http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones and also readme file in the download data in "UCR HAR Dataset" folder.
+
+3 timebodyaccelerometermeanxcoordinate
+4 timebodyaccelerometermeanycoordinate
+5 timebodyaccelerometermeanzcoordinate
+6 timegravityaccelerometermeanxcoordinate
+7 timegravityaccelerometermeanycoordinate
+8 timegravityaccelerometermeanzcoordinate
+9 timebodyaccelerometerjerkmeanxcoordinate
+10 timebodyaccelerometerjerkmeanycoordinate
+11 timebodyaccelerometerjerkmeanzcoordinate
+12 timebodygyroscopemeanxcoordinate
+13 timebodygyroscopemeanycoordinate
+14 timebodygyroscopemeanzcoordinate
+15 timebodygyroscopejerkmeanxcoordinate
+16 timebodygyroscopejerkmeanycoordinate
+17 timebodygyroscopejerkmeanzcoordinate
+18 timebodyaccelerometermagnitudemean
+19 timegravityaccelerometermagnitudemean
+20 timebodyaccelerometerjerkmagnitudemean
+21 timebodygyroscopemagnitudemean
+22 timebodygyroscopejerkmagnitudemean
+23 frequencybodyaccelerometermeanxcoordinate
+24 frequencybodyaccelerometermeanycoordinate
+25 frequencybodyaccelerometermeanzcoordinate
+26 frequencybodyaccelerometerjerkmeanxcoordinate
+27 frequencybodyaccelerometerjerkmeanycoordinate
+28 frequencybodyaccelerometerjerkmeanzcoordinate
+29 frequencybodygyroscopemeanxcoordinate
+30 frequencybodygyroscopemeanycoordinate
+31 frequencybodygyroscopemeanzcoordinate
+32 frequencybodyaccelerometermagnitudemean
+33 frequencybodyaccelerometerjerkmagnitudemean
+34 frequencybodygyroscopemagnitudemean
+35 frequencybodygyroscopejerkmagnitudemean
+36 timebodyaccelerometerstandarddeviationxcoordinate
+37 timebodyaccelerometerstandarddeviationycoordinate
+38 timebodyaccelerometerstandarddeviationzcoordinate
+39 timegravityaccelerometerstandarddeviationxcoordinate
+40 timegravityaccelerometerstandarddeviationycoordinate
+41 timegravityaccelerometerstandarddeviationzcoordinate
+42 timebodyaccelerometerjerkstandarddeviationxcoordinate
+43 timebodyaccelerometerjerkstandarddeviationycoordinate
+44 timebodyaccelerometerjerkstandarddeviationzcoordinate
+45 timebodygyroscopestandarddeviationxcoordinate
+46 timebodygyroscopestandarddeviationycoordinate
+47 timebodygyroscopestandarddeviationzcoordinate
+48 timebodygyroscopejerkstandarddeviationxcoordinate
+49 timebodygyroscopejerkstandarddeviationycoordinate
+50 timebodygyroscopejerkstandarddeviationzcoordinate
+51 timebodyaccelerometermagnitudestandarddeviation
+52 timegravityaccelerometermagnitudestandarddeviation
+53 timebodyaccelerometerjerkmagnitudestandarddeviation
+54 timebodygyroscopemagnitudestandarddeviation
+55 timebodygyroscopejerkmagnitudestandarddeviation
+56 frequencybodyaccelerometerstandarddeviationxcoordinate
+57 frequencybodyaccelerometerstandarddeviationycoordinate
+58 frequencybodyaccelerometerstandarddeviationzcoordinate
+59 frequencybodyaccelerometerjerkstandarddeviationxcoordinate
+60 frequencybodyaccelerometerjerkstandarddeviationycoordinate
+61 frequencybodyaccelerometerjerkstandarddeviationzcoordinate
+62 frequencybodygyroscopestandarddeviationxcoordinate
+63 frequencybodygyroscopestandarddeviationycoordinate
+64 frequencybodygyroscopestandarddeviationzcoordinate
+65 frequencybodyaccelerometermagnitudestandarddeviation
+66 frequencybodyaccelerometerjerkmagnitudestandarddeviation
+67 frequencybodygyroscopemagnitudestandarddeviation
+68 frequencybodygyroscopejerkmagnitudestandarddeviation
+
+
+
+
+
